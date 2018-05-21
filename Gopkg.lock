@@ -5,7 +5,7 @@
   branch = "master"
   name = "github.com/dotchev/go-main"
   packages = ["plugin"]
-  revision = "50dcfb6f92a86406c699d7fb03ea3f43f9175efd"
+  revision = "2b557419621d7a1893574e042533d620b19ddf81"
 
 [solve-meta]
   analyzer-name = "dep"

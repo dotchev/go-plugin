@@ -7,5 +7,5 @@ import (
 )
 
 func Call(r *m.PluginRequest) {
-	fmt.Println("Plugin: ", r.Name)
+	fmt.Println("Plugin: ", r.Name, r.Size)
 }
