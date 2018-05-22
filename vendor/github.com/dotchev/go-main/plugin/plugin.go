@@ -10,9 +10,6 @@ type PluginRequest struct {
 }
 
 func UUID() string {
-	id, err := uuid.NewV4()
-	if err != nil {
-		panic(err)
-	}
+	id := uuid.NewV4()
 	return id.String()
 }

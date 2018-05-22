@@ -5,7 +5,13 @@
   branch = "master"
   name = "github.com/dotchev/go-main"
   packages = ["plugin"]
-  revision = "2b557419621d7a1893574e042533d620b19ddf81"
+  revision = "efa58bafe790ab27fcb1fd22b4ffd3917ffe02f9"
+
+[[projects]]
+  name = "github.com/satori/go.uuid"
+  packages = ["."]
+  revision = "f58768cc1a7a7e77a3bd49e98cdd21419399b6a3"
+  version = "v1.2.0"
 
 [solve-meta]
   analyzer-name = "dep"
